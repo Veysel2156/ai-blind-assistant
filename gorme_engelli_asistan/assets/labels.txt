@@ -1,0 +1,13 @@
+air-conditioner
+bottle
+bowl
+clock
+cup
+fork
+knife
+pen
+person
+phone
+scissor
+spoon
+teapot

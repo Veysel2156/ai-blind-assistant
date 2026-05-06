@@ -1,0 +1,22 @@
+name: gorme_engelli_asistan
+description: "Görme Engelliler İçin Sesli Nesne Tanıma Uygulaması"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.12.0
+  tflite_flutter: ^0.12.1
+  flutter_tts: ^4.2.5
+  vibration: ^3.1.8
+  image: ^4.1.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/labels.txt
+    - assets/model_optimized_int8.tflite
